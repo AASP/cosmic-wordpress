@@ -1,0 +1,16 @@
+.newsscroller_title{
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: underline;
+  
+}
+.scrollercontent{
+  text-align:justify;
+}
+position: absolute;
+		top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 40px;
+		right: 1000px;
+}
