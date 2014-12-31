@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'cosmic');
+define('DB_NAME', 'satinder_xiders');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'satinder');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'q');
+define('DB_PASSWORD', 'satinder@@$$');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
