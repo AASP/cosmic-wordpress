@@ -47,16 +47,17 @@
         <div id="aasp-anthem" class="aasp-right" style=" float:right;width:350px;margin-right:-330px; " >
                 <?php vmarquee( $setting="1", $group="GROUP1" ); ?>
         </div>
-	<div id="aasp-slider" class="aasp-center" style="display:inline-block; width:400px; " >
+	<div id="aasp-slider"  class="aasp-center" style="display:inline-block; width:400px; " >
 
 	<h1 class="site-title"><?php  bloginfo( 'name' ); ?></h1>
 
 		<?php
+
 //		if(function_exists('fhs_display_front'))
 //		{
 //		echo fhs_display_front();
 //		}	
-//		?>
+		?>
 	</div>
 </div>
 
