@@ -20,21 +20,29 @@ get_header(); ?>
 <!--~~~~~~~~~~~AASP~~~~~~~~~~~~~~~~~-->
 
 <div id="outer" style="clear:both;">	
-	<div id="aasp-thought" style="width:300px; margin-left:30px; float:left;" >
+	<div id="aasp-thought" style="width:300px; margin-left:50px; float:left;" >
 	<?php
 	echo do_shortcode( '[widget id="qotdwidget-3"]' );
 	?>
 	</div>
-        <div id="news" style="width:300px; float:right;">
+        <div id="news" style="width:300px; float:right;margin-right:50px;">
         <?php
         echo do_shortcode( '[widget id="verticalscroll-4"]' );
         ?>
         </div>
-	<div id="video" style="width:700px; display:inline-block; " >
-        <?php
-        echo do_shortcode( '[gallery_videos id="1"]' );
-        ?>
+	<div id="video" style=" display:inline-block; margin:20px;" >
+
+                <?php
+                if(function_exists('fhs_display_front'))
+                {
+                echo fhs_display_front();
+                }
+                ?>
 	</div>
+        <?php
+	echo do_shortcode( '[gallery_videos id="1"]' );
+        ?>
+	
 </div>
 
 

@@ -48,12 +48,15 @@
                 <?php vmarquee( $setting="1", $group="GROUP1" ); ?>
         </div>
 	<div id="aasp-slider" class="aasp-center" style="display:inline-block; width:400px; " >
+
+	<h1 class="site-title"><?php  bloginfo( 'name' ); ?></h1>
+
 		<?php
-		if(function_exists('fhs_display_front'))
-		{
-		echo fhs_display_front();
-		}	
-		?>
+//		if(function_exists('fhs_display_front'))
+//		{
+//		echo fhs_display_front();
+//		}	
+//		?>
 	</div>
 </div>
 
