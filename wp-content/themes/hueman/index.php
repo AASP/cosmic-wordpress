@@ -5,7 +5,17 @@
 	<?php get_template_part('inc/page-title'); ?>
 	
 	<div class="pad group">
+	
 		
+               <?php
+                if(function_exists('fhs_display_front'))
+                {
+                echo fhs_display_front();
+                }
+                ?>
+
+
+	
 		<?php get_template_part('inc/featured'); ?>
 		
 		<?php if ( have_posts() ) : ?>
