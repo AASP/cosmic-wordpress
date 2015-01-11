@@ -8,10 +8,10 @@
 	
 		
                <?php
-                if(function_exists('fhs_display_front'))
-                {
-                echo fhs_display_front();
-                }
+//                if(function_exists('fhs_display_front'))
+  //              {
+    //            echo fhs_display_front();
+      //          }
                 ?>
 
 
