@@ -154,7 +154,7 @@ h1 {
 h2 {
 	font-size: 25px;
 	margin: 25px 0;
-	background-color:#FFCC66;
+	background-color:#8A403A;
 }
 
 h3 {
@@ -786,7 +786,7 @@ img.wp-smiley,
 
 .site-main {
 	position: relative;
-	background-color: #FBEDFD;
+	background-color: #F4F7BE;
 }
 
 .site-main .sidebar-container {
@@ -824,7 +824,7 @@ img.wp-smiley,
 	display: block;
 	margin: 0 auto;
 /*	max-width: 1080px;
-*/	background-color: #38414D;
+*/	background-color: #19876B;
 	min-height: 230px;
 	padding: 0 360px;
 	text-decoration: none;
@@ -951,7 +951,7 @@ ul.nav-menu .focus > ul,
 
 /* Navbar */
 .navbar {
-	background-color: #38414D;
+	background-color: #19876B;
 	border-top-style: dotted;
 	border-color: white;
 	border-width: 1px; 
@@ -2450,7 +2450,7 @@ footer.entry-meta {
  */
 
 .widget {
-	background-color: rgba(247, 245, 231, 0.7);
+	background-color: rgba(244,247,190, 0.7);
 	font-size: 14px;
 	-webkit-hyphens: auto;
 	-moz-hyphens:    auto;
