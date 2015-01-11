@@ -43,9 +43,10 @@
 				
 				<div class="group pad">
 					
+					<div class="logo" style="width: 20%;">	
 					<?php lm_display_logo(); ?>
 					
-					<?php echo alx_site_title(); ?>
+					<?php //echo alx_site_title(); ?>
 					<?php if ( ot_get_option('site-description') != 'off' ): ?><p class="site-description"><?php bloginfo( 'description' ); ?></p><?php endif; ?>
 				</div>
 				
