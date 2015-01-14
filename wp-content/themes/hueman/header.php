@@ -48,6 +48,14 @@
 					
 					<?php echo alx_site_title(); ?>
 					<?php if ( ot_get_option('site-description') != 'off' ): ?><p class="site-description"><?php bloginfo( 'description' ); ?></p><?php endif; ?>
+
+
+				        <div id="aasp-anthem" class="aasp-right" style=" float:right; " >
+			                <?php vmarquee( $setting="1", $group="GROUP1" ); ?>
+        				</div>
+
+
+
 				</div>
 				
 				<?php if (has_nav_menu('header')): ?>
