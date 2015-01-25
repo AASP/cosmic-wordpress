@@ -277,8 +277,8 @@ h1, h2, h3, h4, h5, h6 { color: #444; font-weight: 600; -ms-word-wrap: break-wor
 .main { background-color: #fff!important; position: relative; }
 .main-inner { position: relative; min-height: 600px; /* instead of sticky footer */ }
 .content { width: 100%; position: relative; }
-.pad { padding: 30px 30px 20px; }
-
+.pad {/* padding: 30px 30px 20px; aasp */ }
+	
 /* boxed */
 .boxed #wrapper { max-width: 1380px; margin: 0 auto;
 -webkit-box-shadow: 6px 0 0 rgba(0,0,0,0.04), -6px 0 0 rgba(0,0,0,0.04);
@@ -554,10 +554,15 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
  *  Section: Header
 /* ------------------------------------------------------------------------- */
 #header { background: #33363b; position: relative; padding-bottom: 60px; }
-#header .pad { padding-top: 30px; padding-bottom: 30px; }
+/*#header .pad { padding-top: 30px; padding-bottom: 30px; aasp */ }
 #header .container-inner { position: relative; }
 
-.site-title { font-size: 42px; font-weight: 600; letter-spacing: -0.5px; float: left; line-height: 60px; padding: 10px 0; }
+.site-title { font-size: 42px; font-weight: 600; letter-spacing: -0.5px; float: left; line-height: 60px; padding: 10px 0;
+/*aasp*/
+position: absolute;
+margin-top: 160px;
+
+ }
 .site-title a { display: block; color: #fff; max-width: 100%; }
 .site-title a img { display: block; max-width: 100%; max-height: 60px; height: auto; padding: 0; margin: 0 auto; -webkit-border-radius: 0; border-radius: 0; }
 .site-description { font-size: 16px; font-style: italic; color: #fff; color: rgba(255,255,255,0.5); float: left; margin-left: 20px; line-height: 60px; padding: 10px 0; }

@@ -40,20 +40,20 @@
 		
 		<div class="container group">
 			<div class="container-inner">
-				
+			
 				<div class="group pad">
-					
-				<!--	<div class="logo" style="width: 20%;">	
-				-->	<?php //lm_display_logo(); ?>
-					
+				
+
+
+      				<!--	<div class="logo" style="width: 20%;">	
+					<?php //lm_display_logo(); ?>
+				-->	
 					<?php echo alx_site_title(); ?>
 					<?php if ( ot_get_option('site-description') != 'off' ): ?><p class="site-description"><?php bloginfo( 'description' ); ?></p><?php endif; ?>
 
 
+                                <img src="http://serv.devplace.in/~satinder/cosmic/wp-content/uploads/2015/01/drawing-banner22.png" alt="some_text">		       
 
-				       
-
-					
 	
 				<!--	 <div id="aasp-anthem" class="aasp-right" style=" float:right; " >
 			               <?php //echo wp_text_slider(); ?>
