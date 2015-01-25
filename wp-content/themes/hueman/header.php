@@ -55,10 +55,11 @@
 
 					
 	
-					 <div id="aasp-anthem" class="aasp-right" style=" float:right; " >
-			               <?php echo wp_text_slider(); ?>
+				<!--	 <div id="aasp-anthem" class="aasp-right" style=" float:right; " >
+			               <?php //echo wp_text_slider(); ?>
 					<?php // vmarquee( $setting="1", $group="GROUP1" ); ?>
         				</div>
+				-->
 
 
 
