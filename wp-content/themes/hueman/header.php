@@ -52,7 +52,7 @@
 					<?php if ( ot_get_option('site-description') != 'off' ): ?><p class="site-description"><?php bloginfo( 'description' ); ?></p><?php endif; ?>
 
 
-                                <img src="http://serv.devplace.in/~satinder/cosmic/wp-content/uploads/2015/01/drawing-banner22.png" alt="some_text">		       
+                                <img src="http://serv.devplace.in/~satinder/cosmic/wp-content/uploads/2015/01/drawing-banner222.png" alt="some_text">		       
 
 	
 				<!--	 <div id="aasp-anthem" class="aasp-right" style=" float:right; " >
