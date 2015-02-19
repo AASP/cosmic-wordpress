@@ -22,7 +22,16 @@
 			<nav class="nav-container group" id="nav-topbar">
 				<div class="nav-toggle"><i class="fa fa-bars"></i></div>
 				<div class="nav-text"><!-- put your mobile menu text here --></div>
-				<div class="nav-wrap container"><?php wp_nav_menu(array('theme_location'=>'topbar','menu_class'=>'nav container-inner group','container'=>'','menu_id' => '','fallback_cb'=> false)); ?></div>
+				<div class="nav-wrap container">
+					<div style="display:inline-block"><h1 style="font-size: 25px; color: white; font-style: oblique;">COSMIC WAY OF LIVING</h1>	
+						<?php // echo alx_site_title(); ?>
+					</div>
+					
+					<div style="display:inline-block">
+					<?php wp_nav_menu(array('theme_location'=>'topbar','menu_class'=>'nav container-inner group','container'=>'','menu_id' => '','fallback_cb'=> false)); ?>
+					</div>
+					
+				</div>
 
 				<div class="container">
 					<div class="container-inner">		
