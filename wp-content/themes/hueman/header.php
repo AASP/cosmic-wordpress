@@ -62,7 +62,8 @@
 					<?php echo alx_site_title(); ?>
 					<?php if ( ot_get_option('site-description') != 'off' ): ?><p class="site-description"><?php bloginfo( 'description' ); ?></p><?php endif; ?>
 
-
+				<h1 style="font-size: 200px; margin-top: 75px; color: white;">{</h1>
+				<h1 style="font-size: 50px; margin-top: -50px; color: white; font-style: oblique; float: right; margin-right: 550px;">Cosmic Way of Living </h1>  
                  <!--               <img src="http://serv.devplace.in/~satinder/cosmic/wp-content/uploads/2015/01/drawing-banner222-compressed.jpg" alt="some_text">		       
 		-->
 	
