@@ -23,8 +23,10 @@
 				<div class="nav-toggle"><i class="fa fa-bars"></i></div>
 				<div class="nav-text"><!-- put your mobile menu text here --></div>
 				<div class="nav-wrap container">
-					<div style="display:inline-block"><h1 style="font-size: 25px; color: white; font-style: oblique;">COSMIC WAY OF LIVING</h1>	
-						<?php // echo alx_site_title(); ?>
+					<div style="display:inline-block">
+<!--
+<h1 style="font-size: 25px; color: white; font-style: oblique;">COSMIC WAY OF LIVING</h1>	
+-->						<?php // echo alx_site_title(); ?>
 					</div>
 					
 					<div style="display:inline-block">
@@ -61,8 +63,8 @@
 					<?php if ( ot_get_option('site-description') != 'off' ): ?><p class="site-description"><?php bloginfo( 'description' ); ?></p><?php endif; ?>
 
 
-                                <img src="http://serv.devplace.in/~satinder/cosmic/wp-content/uploads/2015/01/drawing-banner222-compressed.jpg" alt="some_text">		       
-
+                 <!--               <img src="http://serv.devplace.in/~satinder/cosmic/wp-content/uploads/2015/01/drawing-banner222-compressed.jpg" alt="some_text">		       
+		-->
 	
 				<!--	 <div id="aasp-anthem" class="aasp-right" style=" float:right; " >
 			               <?php //echo wp_text_slider(); ?>
