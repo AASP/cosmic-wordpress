@@ -62,10 +62,10 @@
 					<?php echo alx_site_title(); ?>
 					<?php if ( ot_get_option('site-description') != 'off' ): ?><p class="site-description"><?php bloginfo( 'description' ); ?></p><?php endif; ?>
 
-				<h1 style="font-size: 200px; margin-top: 75px; color: white;">{</h1>
-				<h1 style="font-size: 50px; margin-top: -80px; color: white; font-style: oblique; float: right; margin-right: 550px;">Cosmic Way of Living </h1> 
+		<!--		<h1 style="font-size: 200px; margin-top: 75px; color: white;">{</h1>
+		-->		<h1 style="font-size: 50px; color: white; font-style: oblique;">Cosmic Way of Living </h1> 
 
-				<h3 style=" float:right; margin-right: 160px; margin-top: -40px; color: white;" >
+<!--				<h3 style=" float:right; margin-right: 160px; margin-top: -40px; color: white;" >
 
 				ਗਗਨ ਮੈ ਥਾਲੁ ਰਵਿ ਚੰਦੁ ਦੀਪਕ ਬਨੇ ਤਾਰਿਕਾ ਮੰਡਲ ਜਨਕ ਮੋਤੀ ॥
 
@@ -93,7 +93,7 @@
 	
 
 				</h3>				
-
+-->
 
                  <!--               <img src="http://serv.devplace.in/~satinder/cosmic/wp-content/uploads/2015/01/drawing-banner222-compressed.jpg" alt="some_text">		       
 		-->
