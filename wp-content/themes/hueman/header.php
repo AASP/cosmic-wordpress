@@ -24,7 +24,7 @@
 				<div class="nav-text"><!-- put your mobile menu text here --></div>
 				<div class="nav-wrap container">
 					<div style="display:inline-block">
-<!--
+<!--this is A merge
 <h1 style="font-size: 25px; color: white; font-style: oblique;">COSMIC WAY OF LIVING</h1>	
 -->						<?php // echo alx_site_title(); ?>
 					</div>
