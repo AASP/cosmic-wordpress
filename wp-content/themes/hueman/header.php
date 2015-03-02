@@ -63,12 +63,11 @@
 					<?php if ( ot_get_option('site-description') != 'off' ): ?><p class="site-description"><?php bloginfo( 'description' ); ?></p><?php endif; ?>
 
 		<!--		<h1 style="font-size: 200px; margin-top: 75px; color: white;">{</h1>
-<<<<<<< HEAD
+
 		-->		<h1 style="font-size: 50px; color: #8B0000;float: right; margin-top: 50px; margin-right: 700px; 
 font-family: "Comic Sans MS", cursive, sans-serif ">Cosmic Way of Living </h1> 
-=======
-		-->		<h1 style="font-size: 50px; margin-top: -80px; color: white; font-style: oblique; float: right; margin-right: 550px;">Cosmic Way of Living </h1> 
->>>>>>> bc53e1671d1b24968ed8f1d59971747087de4f11
+
+				
 
 <!--				<h3 style=" float:right; margin-right: 160px; margin-top: -40px; color: white;" >
 
