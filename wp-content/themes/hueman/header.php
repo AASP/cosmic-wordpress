@@ -62,9 +62,9 @@
 					<?php echo alx_site_title(); ?>
 					<?php if ( ot_get_option('site-description') != 'off' ): ?><p class="site-description"><?php bloginfo( 'description' ); ?></p><?php endif; ?>
 
-		<!--		<h1 style="font-size: 200px; margin-top: 75px; color: white;">{</h1>
-
-		-->		<h1 style="font-size: 50px; color: #8B0000;float: right; margin-top: 50px; margin-right: 700px; 
+				<h1 style="/* margin-top:40px;*/ color: #590000;"> Welcome to the</h1>
+<br>
+				<h1 style="font-size: 50px; color: #8B0000;float: right; margin-top: 0px; margin-right: 700px; 
 font-family: "Comic Sans MS", cursive, sans-serif ">Cosmic Way of Living </h1> 
 
 				
