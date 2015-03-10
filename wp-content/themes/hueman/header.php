@@ -62,12 +62,16 @@
 					<?php echo alx_site_title(); ?>
 					<?php if ( ot_get_option('site-description') != 'off' ): ?><p class="site-description"><?php bloginfo( 'description' ); ?></p><?php endif; ?>
 
-				<h1 style="/* margin-top:40px;*/ color: #590000;"> Welcome to the</h1>
+				<h1 style="/* margin-top:40px;*/ color: #ffffff;"> Welcome to the</h1>
 <br>
-				<h1 style="font-size: 50px; color: #8B0000;float: right; margin-top: 0px; margin-right: 700px; 
+				<h1 style="font-size: 50px; color: #ffffff; float: right; margin-top: 0px; margin-right: 700px; 
 font-family: "Comic Sans MS", cursive, sans-serif ">Cosmic Way of Living </h1> 
-
 				
+				<div style="float: right; margin-top: -60px; margin-right: 50px;">
+				<?php include (TEMPLATEPATH . '/searchform.php'); ?>	
+				</div>
+				<?php newannouncement( $group = "GROUP1" ); ?>
+			
 
 <!--				<h3 style=" float:right; margin-right: 160px; margin-top: -40px; color: white;" >
 
